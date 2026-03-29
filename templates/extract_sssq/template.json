@@ -1,0 +1,15 @@
+﻿{
+  "id": "extract_sssq",
+  "display_name": "Extract Sony SSsq (.sq)",
+  "description": "Scans files for Sony SSsq sequence data and writes .sq.",
+  "extract": {
+    "sssq": true,
+    "sshd_ssbd": false,
+    "mmid": false,
+    "sbnk": false
+  },
+  "extractor_defaults": {
+    "dump_mmid_chunks": false,
+    "all_sbnk_candidates": false
+  }
+}

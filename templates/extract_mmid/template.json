@@ -1,0 +1,14 @@
+﻿{
+  "id": "extract_mmid",
+  "display_name": "Extract 989 MMID (.mmd)",
+  "description": "Scans files for MMID blocks. Chunk dump remains optional debug.",
+  "extract": {
+    "sshd_ssbd": false,
+    "mmid": true,
+    "sbnk": false
+  },
+  "extractor_defaults": {
+    "dump_mmid_chunks": false,
+    "all_sbnk_candidates": false
+  }
+}

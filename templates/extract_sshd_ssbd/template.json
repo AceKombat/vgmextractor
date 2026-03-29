@@ -1,0 +1,14 @@
+﻿{
+  "id": "extract_sshd_ssbd",
+  "display_name": "Extract Sony SShd/SSbd (.hd/.bd)",
+  "description": "Scans files for Sony SShd/SSbd pairs and writes .hd/.bd.",
+  "extract": {
+    "sshd_ssbd": true,
+    "mmid": false,
+    "sbnk": false
+  },
+  "extractor_defaults": {
+    "dump_mmid_chunks": false,
+    "all_sbnk_candidates": false
+  }
+}

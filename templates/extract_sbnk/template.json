@@ -1,0 +1,14 @@
+﻿{
+  "id": "extract_sbnk",
+  "display_name": "Extract 989 Studios SBNK (.vh/.vb)",
+  "description": "Scans files for 989 Studios SBNK headers and writes .vh/.vb.",
+  "extract": {
+    "sshd_ssbd": false,
+    "mmid": false,
+    "sbnk": true
+  },
+  "extractor_defaults": {
+    "dump_mmid_chunks": false,
+    "all_sbnk_candidates": false
+  }
+}

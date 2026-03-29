@@ -1,0 +1,15 @@
+﻿{
+  "id": "extract_all",
+  "display_name": "Extract All",
+  "description": "Scans container/binary files for any recognized formats.",
+  "extract": {
+    "sssq": true,
+    "sshd_ssbd": true,
+    "mmid": true,
+    "sbnk": true
+  },
+  "extractor_defaults": {
+    "dump_mmid_chunks": false,
+    "all_sbnk_candidates": false
+  }
+}
