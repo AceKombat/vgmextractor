@@ -51,6 +51,8 @@ class VgmExtractorApp(tk.Tk):
             Path(self.input_dir.get()).mkdir(parents=True, exist_ok=True)
         except Exception:
             pass
+
+    def _build_ui(self):
         frame = ttk.Frame(self, padding=12)
         frame.pack(fill="both", expand=True)
 
@@ -219,4 +221,5 @@ class VgmExtractorApp(tk.Tk):
 if __name__ == "__main__":
     app = VgmExtractorApp()
     app.mainloop()
+
 
