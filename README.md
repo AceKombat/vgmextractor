@@ -3,7 +3,7 @@
 vgmextractor is an experimental, template-driven toolkit for extracting video game soundbank and sequence assets.
 
 - Status: Alpha
-- Current version: v0.1.1-alpha
+- Current version: v0.1.2-alpha
 
 ## Features
 - Template-driven extraction workflow

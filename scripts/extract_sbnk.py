@@ -289,7 +289,7 @@ def extract_file(src: Path, output_root: Path, all_candidates: bool = False):
         vh_off = cand["offset"]
         vb_size = cand["vb_size"]
         vb_base = cand["vb_base"]
-        vh_end = min(len(blob), vh_off + int(cand.get("vh_size_est", 0x4000)) + 0x20)
+        vh_end = min(len(blob), vh_off + int(cand.get("vh_size_est", 0x4000)))
 
         vh_data = blob[vh_off:vh_end]
         vb_data = blob[vb_base:vb_base + vb_size]
@@ -355,4 +355,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
